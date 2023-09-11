@@ -27,6 +27,7 @@ export default function Todos() {
       id,
       text,
     };
+    setEditText("");
     setCurrentEdit("");
     dispatch(updateTodo(payload));
   }
